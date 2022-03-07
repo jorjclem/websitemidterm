@@ -1,0 +1,15 @@
+.nutritive {
+    width: 50px;
+    height: 50 px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between center;
+    align-items: flex-start;
+    align-content: space-between;
+    background-color: blanchedalmond;
+    border: 2px burlywood;
+}
+.background {
+    background-size: cover;
+}
