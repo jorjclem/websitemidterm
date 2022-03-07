@@ -1,6 +1,6 @@
 .article {
-    width: 50px;
-    height: 50 px;
+    width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -19,11 +19,26 @@
     padding-left: 20px;
     background-color: blanchedalmond;
     font-size: medium;
+    border: 2px dashed peachpuff;
+    align-content: left;
 }
 .h2 {
-    position: center;
+    align-content: center;
     font-size: x-large;
     background-color: peru;
+    font: Comic sans MS;
+
+}
+@media only screen and (min-width: 800px) {
+   .background {
+       background-image: cover;
+   }
+    .aside{
+        align-content: left;
+    }
+    .article {
+        align-content: center;
+    }
 }
 
     
