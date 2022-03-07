@@ -12,12 +12,18 @@
 }
 .background {
     background-size: cover;
+    
 }
 .aside {
     width: 30%;
     padding-left: 20px;
     background-color: blanchedalmond;
     font-size: medium;
+}
+.h2 {
+    position: center;
+    font-size: x-large;
+    background-color: peru;
 }
 
     
